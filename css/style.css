@@ -1,0 +1,300 @@
+﻿/* Campus Vibes SA - Main Stylesheet */
+
+/* Default page styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #222222;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #163a5f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+    /* Main heading inside header */
+    header h1 {
+        font-size: 36px;
+        margin: 0;
+    }
+
+    /* Header slogan */
+    header p {
+        font-size: 18px;
+    }
+
+/* Navigation menu */
+nav {
+    margin-top: 15px;
+}
+
+    /* Navigation links */
+    nav a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        font-weight: bold;
+    }
+        nav a:hover {
+            background-color: white;
+            color: #163a5f;
+            border-radius: 5px;
+        }
+        /* Navigation active effect */
+        nav a:active {
+            background-color: #f28c28;
+            color: white;
+        }
+/* Main content styling */
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Section styling */
+section {
+    margin-bottom: 30px;
+}
+
+/* Main section headings */
+main h2 {
+    color: #163a5f;
+    margin-bottom: 15px;
+}
+
+/* Paragraph styling */
+main p {
+    font-size: 16px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+/* Table cells */
+th,
+td {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Table headings */
+th {
+    background-color: #163a5f;
+    color: white;
+}
+/* Form styling */
+form {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+/* Form fields */
+input,
+select,
+textarea {
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+}
+
+    /* Form buttons */
+    input[type="submit"],
+    input[type="reset"] {
+        background-color: #163a5f;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        cursor: pointer;
+    }
+        /* Button hover effect */
+        input[type="submit"]:hover,
+        input[type="reset"]:hover {
+            background-color: #245a8d;
+        }
+/* Footer styling */
+footer {
+    background-color: #163a5f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+    /* Footer links */
+    footer a {
+        color: white;
+        text-decoration: none;
+    }
+
+        /* Footer link hover effect */
+        footer a:hover {
+            text-decoration: underline;
+        }
+/* Improve form field layout */
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+/* Message box styling */
+textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+    /* Form field focus effect */
+    input:focus,
+    select:focus,
+    textarea:focus {
+        border: 2px solid #163a5f;
+        outline: none;
+    }
+/* Responsive design for tablets and mobile phones */
+@media (max-width: 768px) {
+    /* Adjust content sections */
+    main section {
+        padding: 15px;
+    }
+    /* Adjust the header */
+    header {
+        padding: 15px;
+    }
+
+        /* Adjust the main heading */
+        header h1 {
+            font-size: 28px;
+        }
+
+        /* Adjust the slogan */
+        header p {
+            font-size: 16px;
+        }
+
+    /* Adjust the navigation menu */
+    nav a {
+        display: block;
+        padding: 8px;
+    }
+
+    /* Adjust the main content */
+    main {
+        padding: 10px;
+    }
+
+        /* Adjust headings */
+        main h2 {
+            font-size: 22px;
+        }
+
+    /* Adjust form fields */
+    input,
+    select,
+    textarea {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* Adjust tables */
+    /* Mobile tables */
+    table {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    th,
+    td {
+        padding: 5px;
+        word-wrap: break-word;
+    }
+
+    /* Responsive design for small mobile phones */
+    @media (max-width: 480px) {
+
+        /* Smaller header */
+        header {
+            padding: 10px;
+        }
+
+            /* Smaller website heading */
+            header h1 {
+                font-size: 24px;
+            }
+
+            /* Smaller slogan */
+            header p {
+                font-size: 14px;
+            }
+
+        /* Mobile navigation */
+        nav a {
+            display: block;
+            padding: 6px;
+            margin: 3px 0;
+        }
+
+        /* Mobile main content */
+        main {
+            padding: 8px;
+        }
+
+            /* Mobile headings */
+            main h2 {
+                font-size: 20px;
+            }
+
+            /* Mobile paragraphs */
+            main p {
+                font-size: 14px;
+            }
+
+        /* Mobile tables */
+        table {
+            font-size: 12px;
+            /* Mobile form buttons */
+            input [type="submit"], input[type="reset"]
+
+{
+    width: 100%;
+    margin: 5px 0;
+}       }
+    }
+/* Content section styling */
+main section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #cccccc;
+}
+
+/* List styling */
+main ul {
+    padding-left: 25px;
+}
+
+/* List items */
+main li {
+    margin-bottom: 5px;
+}
