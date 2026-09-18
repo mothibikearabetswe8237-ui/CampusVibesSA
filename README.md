@@ -12,7 +12,9 @@ Group:1
 
 Project:Campus Vibes SA Website
 
-Submission Date:14 August 2026
+Part 1 Submission Date: 14 August 2026
+
+Part 2 Submission Date: 18 September 2026
 
 
 1. Project Overview
@@ -268,3 +270,40 @@ style as required by the institution.
 
 Image sources and other research sources will be listed in the final
 project reference list and Content Research and Sourcing submission.
+
+Part 2: CSS Style and Responsive Design
+
+In Part 2, the Campus Vibes SA website was improved using CSS styling and responsive design.
+The improvements listed below were put into effect:
+- Created the external CSS stylesheet style.css.
+-Every one of the five HTML pages was linked to the external stylesheet.
+-An orange, white, and navy blue colour scheme was added.
+-The typography and readability of the website have been improved.
+-The main content, header, footer, and navigation menu were all styled.
+-Forms and tables now have style.
+-Move, focus, and active pseudo-classes have been added for interactive elements.
+-In order to adapt to various screen sizes, photos were made responsive.
+-A 768px media query has been added for tablets and smaller devices.
+-A 480-pixel mobile media query has been added.
+-For smaller screens, navigation, typography, tables, forms, and buttons were modified.
+-The website was tested on tablets, smartphones, and desktop computers.
+Part 2 Changelog
+
+18 September 2026
+
+- Created a CSS folder and added the external style.css stylesheet.
+- Linked style.css to all five HTML pages.
+- Added default page styling and a consistent colour scheme.
+- Improved typography, spacing, layout, and content sections.
+- Styled the navigation menu, tables, forms, buttons, and footer.
+- Added hover effects to navigation links and buttons.
+- Focus effects to form fields where added.
+- An active effect to navigation links was added.
+- Responsive image styling was added.
+- A 768px media query for tablet and smaller screens was added.
+- A 480px media query for mobile phone screens was added.
+- Adjusted navigation, headings, paragraphs, tables, forms, and buttons for smaller screens.
+- Tested the website at desktop, tablet, and mobile screen sizes.
+- Created and connected the local Git repository to the private CampusVibesSA GitHub repository.
+- Pushed the website project to GitHub.
+- Updated the README.md file with Part 2 development information.
