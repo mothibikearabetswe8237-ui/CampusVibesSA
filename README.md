@@ -370,3 +370,15 @@ Information about a webpage is provided by HTML meta elements.
 A meta description provides search engines with an overview of the page.
 The page displays properly on mobile devices thanks to the viewport meta tag. 
 For instance, the page is described by. 
+
+## Part 3 - Website Deployment
+
+The Campus Vibes SA website was successfully deployed using Netlify.
+
+Live Website:
+https://neon-quokka-41ecff.netlify.app/
+
+GitHub Repository:
+https://github.com/mothibikearabetswe8237-ui/CampusVibesSA
+
+The website contains five connected HTML pages and uses CSS and JavaScript to improve its design and functionality.
