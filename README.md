@@ -261,11 +261,7 @@ Version 1.0 - 14 August 2026
 
 13. References
 
-References will be recorded using the Harvard-Anglia referencing
-style as required by the institution.
-
-Image sources and other research sources will be listed in the final
-project reference list and Content Research and Sourcing submission.
+Unsplash (2026) Unsplash: Beautiful free images and pictures. Available at: https://unsplash.com/ (Accessed: 3 November 2026).
 
 Part 2: CSS Style and Responsive Design
 
@@ -371,7 +367,7 @@ A meta description provides search engines with an overview of the page.
 The page displays properly on mobile devices thanks to the viewport meta tag. 
 For instance, the page is described by. 
 
-## Part 3 - Website Deployment
+Part 3 - Wedsite deployment
 
 The Campus Vibes SA website was successfully deployed using Netlify.
 
