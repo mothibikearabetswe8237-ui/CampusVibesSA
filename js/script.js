@@ -85,7 +85,7 @@ if (enquiryForm) {
 const contactForm = document.getElementById("contactForm");
 
 if (contactForm) {
-    contactForm.addEventListener("submit", function (event) {
+    contactForm.addEventListener("submit", async function (event) {
         event.preventDefault();
 
         const name = contactForm.querySelector("#name").value.trim();
@@ -100,7 +100,29 @@ if (contactForm) {
             return;
         }
 
-        alert("Thank you, " + name + "! Your contact form has been checked successfully.");
+        const formData = new FormData(contactForm);
+        formData.set("form-name", "contact");
+
+        try {
+            const response = await fetch("/", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/x-www-form-urlencoded"
+                },
+                body: new URLSearchParams(formData).toString()
+            });
+
+            if (!response.ok) {
+                throw new Error("Form submission failed");
+            }
+
+            alert("Thank you, " + name + "! Your message has been sent.");
+            contactForm.reset();
+
+        } catch (error) {
+            alert("Sorry, your message could not be sent. Please try again.");
+            console.error(error);
+        }
     });
 }
 function showAboutInfo() {
