@@ -3,7 +3,10 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title>Campus Vibes SA - Activities</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Activities, Sports and Events | Campus Vibes SA</title>
+    <meta name="description" content="Explore campus events, sports, games and student deals with Campus Vibes SA. Find activities and opportunities for students in South Africa.">
+    <meta name="keywords" content="Campus Vibes SA, campus activities, student events, campus sports, student games, student deals, South Africa">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -49,8 +52,15 @@
         <section>
 
             <h2>Activities Available</h2>
+            <p>Search for a campus activity:</p>
 
-            <table border="1">
+            <input type="text"
+                   id="activitySearch"
+                   placeholder="Search events, sports, games or deals">
+
+            <p id="searchMessage"></p>
+
+            <table id="activitiesTable" border="1">
 
                 <tr>
                     <th>Activity</th>
@@ -113,8 +123,9 @@
             <h2>Sports</h2>
 
             <img src="students_participating.jpg"
-                 alt="Students participating in sports"
-                 width="1335" height="667">
+                 alt="College students participating in campus sports activities"
+                 width="1335" height="667"
+                 loading="lazy">
 
             <p>
                 Sports activities give students an opportunity
@@ -140,11 +151,10 @@
         <section>
 
             <h2>Games and Social Activities</h2>
-
             <img src="students_board_games.jpg"
-                 alt="Students playing games"
-                 width="1335" height="667">
-
+                 alt="College students playing board games during campus social activities"
+                 width="1335" height="667"
+                 loading="lazy">
             <p>
                 Games and social activities help students relax,
                 make friends and become more involved on campus.
@@ -174,11 +184,38 @@
                 Students can find information about student-friendly
                 discounts and special offers.
             </p>
-
             <a href="enquiry.html">Ask About an Activity</a>
 
         </section>
 
+        <!-- Interactive Campus Gallery -->
+        <section>
+            <h2>Campus Life Gallery</h2>
+            <p>Click an image to view it in a larger size.</p>
+
+            <div class="gallery">
+                <img src="Students studying together.jpg"
+                     alt="Students studying together"
+                     class="gallery-image"
+                     loading="lazy">
+
+                <img src="Students playing football or rugby.jpg"
+                     alt="Students playing football or rugbys"
+                     class="gallery-image">
+
+                <img src="Students playing pool or board games.jpg"
+                     alt="Students playing pool or board games"
+                     class="gallery-image">
+
+                <img src="Students attending a campus event.jpg"
+                     alt="Students attending a campus event"
+                     class="gallery-image">
+            </div>
+        </section>
+        <div id="lightbox" class="lightbox">
+            <button type="button" id="closeLightbox" aria-label="Close image">&times;</button>
+            <img id="lightboxImage" src="" alt="Enlarged campus gallery image">
+        </div>
     </main>
 
     <!-- Footer -->
@@ -189,6 +226,6 @@
         </p>
 
     </footer>
-
+    <script src="js/script.js"></script>
 </body>
 </html>

@@ -3,7 +3,10 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title>Campus Vibes SA - Enquiry</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Enquiries | Campus Vibes SA</title>
+    <meta name="description" content="Contact Campus Vibes SA to enquire about campus events, sports, games and student deals. Complete our student enquiry form.">
+    <meta name="keywords" content="Campus Vibes SA, student enquiries, campus events, sports enquiries, student activities, student deals">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -54,7 +57,7 @@
 
             <h2>Enquiry Form</h2>
 
-            <form action="" method="">
+            <form id="enquiryForm">
 
                 <table>
 
@@ -179,17 +182,15 @@
 
 
                     <tr>
-
-
-                    <td>
-
-                    <tr>
-                        <td><label>Message:</label></td>
-                        <td><input type="text" id="message"></td>
-                    </tr>
-
-                    </td>
-
+                        <td>
+                            <label for="message">Message:</label>
+                        </td>
+                        <td>
+                            <textarea id="message"
+                                      placeholder="Enter your message"
+                                      rows="5"
+                                      required></textarea>
+                        </td>
                     </tr>
 
 
@@ -225,5 +226,6 @@
         </p>
 
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
