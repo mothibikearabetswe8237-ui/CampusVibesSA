@@ -94,13 +94,9 @@ Part 1 of the project uses HTML5 only.
 
 The following tools are used:
 
-- HTML5
-- Visual Studio Code
-- GitHub
-- Web browser for testing
-
-No CSS or JavaScript is used in Part 1 because the lecturer specified
-that the initial website must be created using HTML only.
+-The five website pages' content and structure were created using these technologies. The website is styled and made responsive for computers, tablets, and phones using CSS.  
+-JavaScript: Used for the image lightbox, interactive buttons, activity searching, and form validation. The website is developed and updated using Visual Studio.  
+-Git: Used to monitor project modifications. The website and its development history are stored on GitHub. Web browser: Used to test the interactive elements of the website. 
 
 
  6. File and Folder Structure
@@ -307,3 +303,70 @@ Part 2 Changelog
 - Created and connected the local Git repository to the private CampusVibesSA GitHub repository.
 - Pushed the website project to GitHub.
 - Updated the README.md file with Part 2 development information.
+
+- Part 3: SEO, Interactive Features, and JavaScript
+
+In Part 3, JavaScript, interactive elements, and Search Engine Optimisation (SEO) were added to the Campus Vibes SA website.
+
+The following changes were implemented:
+-Created script.js, an external JavaScript file.
+-JavaScript was added to the webpages.
+-Interactive buttons that react when clicked have been added.
+-JavaScript form validation has been added to the Contact and Inquiry pages.
+-Different inquiry responses were included for student deals, athletics, gaming, and campus events.
+-An email link that generates an inquiry email for the user to send has been included.
+-A functional picture gallery with a lightbox function was added.
+-To aid students in finding activities, a search function was added.
+-The Contact page now includes an interactive map.
+-Enhanced alt attribute descriptions for images.
+-Lazy loading has been added to some photos.
+-Included keywords, meta descriptions, and SEO titles.
+-Enhanced the user experience of the website.
+-Used a web browser to test the interactive features.
+-The Part 3 changes were committed and published to GitHub.
+
+Part 3 Changelog
+
+November 3rd, 2026
+
+-JavaScript capability has been added to the website.
+-JavaScript validation was used to enhance the Contact and Inquiry forms.
+-Interactive buttons and replies were included.
+-A functional image gallery with a lightbox was added.
+-Activity search features have been added.
+-An interactive map was added.
+-Better image captions and SEO data.
+-Lazy loading was added to enhance image loading.
+-Tested the interactive features of the website.
+-GitHub and Git were used to update the project.
+
+Part 3: Discuss about Search Engine Optimisation (SEO)
+
+1. What is SEO, and what makes it crucial?
+Search Engine Optimisation is known as SEO.
+It makes websites show up in Google and other search engine results.
+Because it makes a website easier to find, SEO is crucial.
+Students can learn about events and activities on campus with the aid of Campus Vibes SA.
+
+2. How does SEO enhance the functionality and user experience of websites?
+SEO promotes user-friendliness and speedy loading times for websites.
+Information may be found by visitors with clear headings. 
+The website functions on computers and phones thanks to responsive design. 
+Additionally, optimised photos might speed up loading.
+
+3. What advantages does SEO offer? 
+More people can find a website through search engines thanks to SEO. 
+Without spending money on ads, it can boost website traffic. 
+Additionally, it increases website visibility and facilitates students’ access to helpful campus information. 
+
+ 4. Which SEO strategies work with JavaScript, HTML, and CSS? 
+Headings, alt text for images, title tags, and meta descriptions are all used in HTML.
+The website is responsive to various screen sizes thanks to CSS. 
+JavaScript can enhance interactive elements and navigation. 
+These strategies aid in improving the website’s usability and comprehension. 
+
+5. What do HTML meta elements serve? 
+Information about a webpage is provided by HTML meta elements.
+A meta description provides search engines with an overview of the page.
+The page displays properly on mobile devices thanks to the viewport meta tag. 
+For instance, the page is described by. 

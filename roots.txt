@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://neon-quokka-41ecff.netlify.app/sitemap.xml
